@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import GlobeView from './globeView.jsx';
+// import GlobeView from './globeView.jsx';
+import GlobeRings from './globeRings';
+
+
 function App() {
   return (
     <div className="App">
@@ -8,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <GlobeView/>
       </header> */}
-      <GlobeView/>
+        <GlobeRings />
     </div>
   );
 }
