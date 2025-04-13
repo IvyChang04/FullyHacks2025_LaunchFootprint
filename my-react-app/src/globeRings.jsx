@@ -9,6 +9,7 @@ const GlobeRings = () => {
 
   useEffect(() => {
     // const N = 30;
+    console.log("bam");
     fetch('https://fullyhacks2025-launchfootprint.onrender.com/launches')
         .then((res) => res.json())
         .then((data) => {
