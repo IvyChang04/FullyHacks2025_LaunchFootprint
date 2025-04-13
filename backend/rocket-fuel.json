@@ -1,0 +1,457 @@
+{
+    "Vega": {
+        "fuel_type": "HTPB",
+        "fuel_mass_kg": 137000,
+        "emission_factor": 2.75
+    },
+    "Long March 2C": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 190000,
+        "emission_factor": 3.6
+    },
+    "Long March 2F/T": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 411000,
+        "emission_factor": 3.6
+    },
+    "Long March 2C/E": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 250000,
+        "emission_factor": 3.6
+    },
+    "Kuaizhou 11": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 80000,
+        "emission_factor": 2.85
+    },
+    "Epsilon PBS": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 91000,
+        "emission_factor": 2.85
+    },
+    "Kuaizhou 1A": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 50000,
+        "emission_factor": 2.85
+    },
+    "Soyuz 2.1b/Fregat": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Qased": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 15000,
+        "emission_factor": 2.85
+    },
+    "Long March 7": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 500000,
+        "emission_factor": 3.15
+    },
+    "Long March 11": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 50000,
+        "emission_factor": 2.85
+    },
+    "Electron/Photon": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 13000,
+        "emission_factor": 3.15
+    },
+    "Angara A5/Persey": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 663000,
+        "emission_factor": 3.15
+    },
+    "Atlas V 501": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 284000,
+        "emission_factor": 3.15
+    },
+    "LauncherOne": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 32000,
+        "emission_factor": 3.15
+    },
+    "OS-M1": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 34000,
+        "emission_factor": 2.85
+    },
+    "Rokot/Briz KM": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 107000,
+        "emission_factor": 3.6
+    },
+    "Proton-M/DM-3": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 622000,
+        "emission_factor": 3.6
+    },
+    "Proton-M": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 622000,
+        "emission_factor": 3.6
+    },
+    "Atlas V N22": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 285000,
+        "emission_factor": 3.15
+    },
+    "Safir-1B+": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 26000,
+        "emission_factor": 3.6
+    },
+    "Soyuz 2.1a/Fregat-M": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "PSLV-QL": {
+        "fuel_type": "Solid (HTPB) + N2O4/UDMH",
+        "fuel_mass_kg": 48000,
+        "emission_factor": 2.85
+    },
+    "Atlas V 541": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 300000,
+        "emission_factor": 3.15
+    },
+    "Angara A5/Briz-M": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 663000,
+        "emission_factor": 3.15
+    },
+    "Simorgh": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 87000,
+        "emission_factor": 3.6
+    },
+    "Rocket 3": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 9200,
+        "emission_factor": 3.15
+    },
+    "Electron/Curie": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 13000,
+        "emission_factor": 3.15
+    },
+    "Long March 3B/E": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 410000,
+        "emission_factor": 3.6
+    },
+    "Long March 2D": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 230000,
+        "emission_factor": 3.6
+    },
+    "Firefly Alpha": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 45000,
+        "emission_factor": 3.15
+    },
+    "Long March 7A": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 500000,
+        "emission_factor": 3.15
+    },
+    "Long March 11H": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 50000,
+        "emission_factor": 2.85
+    },
+    "Soyuz ST-A/Fregat-M": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Pegasus XL": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 30000,
+        "emission_factor": 2.85
+    },
+    "H-IIB": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 500000,
+        "emission_factor": 3.15
+    },
+    "PSLV-XL": {
+        "fuel_type": "Solid (HTPB) + UDMH/N2O4",
+        "fuel_mass_kg": 50000,
+        "emission_factor": 2.85
+    },
+    "H-IIA 202": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 300000,
+        "emission_factor": 3.15
+    },
+    "Atlas V 551": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 305000,
+        "emission_factor": 3.15
+    },
+    "Proton-M/Briz-M": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 622000,
+        "emission_factor": 3.6
+    },
+    "PSLV-DL": {
+        "fuel_type": "Solid (HTPB) + N2O4/UDMH",
+        "fuel_mass_kg": 46000,
+        "emission_factor": 2.85
+    },
+    "Minotaur IV": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 86000,
+        "emission_factor": 2.85
+    },
+    "Soyuz ST-B/Fregat-MT": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Long March 4B": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 250000,
+        "emission_factor": 3.6
+    },
+    "Long March 2C/YZ-1S": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 200000,
+        "emission_factor": 3.6
+    },
+    "Soyuz ST-B/Fregat-M": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Atlas V 421": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 285000,
+        "emission_factor": 3.15
+    },
+    "H-IIA 204": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 320000,
+        "emission_factor": 3.15
+    },
+    "Shavit-2": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 20000,
+        "emission_factor": 2.85
+    },
+    "Antares 230+": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 250000,
+        "emission_factor": 3.15
+    },
+    "PSLV-CA": {
+        "fuel_type": "Solid (HTPB) + UDMH/N2O4",
+        "fuel_mass_kg": 44000,
+        "emission_factor": 2.85
+    },
+    "Ceres-1": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 33000,
+        "emission_factor": 2.85
+    },
+    "KSLV-2": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 151000,
+        "emission_factor": 3.15
+    },
+    "Soyuz 2.1v/Volga": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 125000,
+        "emission_factor": 3.15
+    },
+    "Soyuz 2.1b/Fregat-M": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Long March 3C/E": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 390000,
+        "emission_factor": 3.6
+    },
+    "Long March 2F/G": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 411000,
+        "emission_factor": 3.6
+    },
+    "Long March 6": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 103000,
+        "emission_factor": 3.15
+    },
+    "Soyuz 2.1a": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Delta IV Medium+ (5,4)": {
+        "fuel_type": "LH2 + LOX",
+        "fuel_mass_kg": 497000,
+        "emission_factor": 0.0
+    },
+    "Atlas V 411": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 284000,
+        "emission_factor": 3.15
+    },
+    "Delta IV Medium+ (4,2)": {
+        "fuel_type": "LH2 + LOX",
+        "fuel_mass_kg": 430000,
+        "emission_factor": 0.0
+    },
+    "GSLV Mk II": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 416000,
+        "emission_factor": 3.6
+    },
+    "Long March 8": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 500000,
+        "emission_factor": 3.15
+    },
+    "Long March 4C": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 250000,
+        "emission_factor": 3.6
+    },
+    "Atlas V 531": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 300000,
+        "emission_factor": 3.15
+    },
+    "Long March 5": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 705000,
+        "emission_factor": 3.15
+    },
+    "Long March 3B/YZ-1": {
+        "fuel_type": "UDMH + N2O4",
+        "fuel_mass_kg": 410000,
+        "emission_factor": 3.6
+    },
+    "Jielong-1": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 23000,
+        "emission_factor": 2.85
+    },
+    "Soyuz FG": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Hyperbola-1": {
+        "fuel_type": "Solid (HTPB)",
+        "fuel_mass_kg": 32000,
+        "emission_factor": 2.85
+    },
+    "Falcon 9 Block 5": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 409000,
+        "emission_factor": 3.15
+    },
+    "Falcon Heavy": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 1420000,
+        "emission_factor": 3.15
+    },
+    "Ariane 5 ECA": {
+        "fuel_type": "UH25 + N2O4 / LH2 + LOX",
+        "fuel_mass_kg": 180000,
+        "emission_factor": 2.9
+    },
+    "Atlas V 401": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 221000,
+        "emission_factor": 3.15
+    },
+    "Soyuz 2.1b": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 274000,
+        "emission_factor": 3.15
+    },
+    "Delta IV Heavy": {
+        "fuel_type": "LH2 + LOX",
+        "fuel_mass_kg": 497000,
+        "emission_factor": 0.0
+    },
+    "Space Shuttle": {
+        "fuel_type": "Solid rocket fuel (HTPB) + LH2 + LOX",
+        "fuel_mass_kg": 2900000,
+        "emission_factor": 2.85
+    },
+    "Electron": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 12000,
+        "emission_factor": 3.15
+    },
+    "Vega C": {
+        "fuel_type": "HTPB + N2O4",
+        "fuel_mass_kg": 31000,
+        "emission_factor": 2.75
+    },
+    "Long March 5B": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 700000,
+        "emission_factor": 3.15
+    },
+    "GSLV Mk III": {
+        "fuel_type": "Liquid oxygen + Liquid hydrogen",
+        "fuel_mass_kg": 600000,
+        "emission_factor": 0.0
+    },
+    "PSLV": {
+        "fuel_type": "Solid rocket propellant (HTPB) + Liquid Oxygen",
+        "fuel_mass_kg": 40000,
+        "emission_factor": 2.85
+    },
+    "Minotaur I": {
+        "fuel_type": "Solid rocket propellant (HTPB)",
+        "fuel_mass_kg": 21500,
+        "emission_factor": 2.85
+    },
+    "Antares 230": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 245000,
+        "emission_factor": 3.15
+    },
+    "New Shepard": {
+        "fuel_type": "LH2 + LOX",
+        "fuel_mass_kg": 5500,
+        "emission_factor": 0.0
+    },
+    "Zuma (Falcon 9 Block 5)": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 409000,
+        "emission_factor": 3.15
+    },
+    "H-IIA": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 300000,
+        "emission_factor": 3.15
+    },
+    "Falcon 1": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 38000,
+        "emission_factor": 3.15
+    },
+    "Terran 1": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 15000,
+        "emission_factor": 3.15
+    },
+    "Electron (Rocket Lab)": {
+        "fuel_type": "RP-1 + LOX",
+        "fuel_mass_kg": 12000,
+        "emission_factor": 3.15
+    }
+}
