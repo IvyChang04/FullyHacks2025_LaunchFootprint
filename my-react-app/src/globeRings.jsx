@@ -42,11 +42,9 @@ const GlobeRings = () => {
 
                 setRingsData(launchData);
             });
-
         globeEl.current.controls().autoRotate = false;
         globeEl.current.controls().autoRotateSpeed = 0.5;
     }, []);
-
 
     return (
         <div style={{ width: "100%", height: "100vh" }}>
