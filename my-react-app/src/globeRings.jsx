@@ -26,7 +26,7 @@ const GlobeRings = () => {
     <div style={{ width: '100%', height: '100vh' }}>
       <Globe
         ref={globeEl}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-dark.jpg"
+        globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg"
         backgroundColor="#000000"
         ringsData={ringsData}
         ringColor={() => ['#ff5733', '#33ff99', '#3385ff'][Math.floor(Math.random() * 3)]}
