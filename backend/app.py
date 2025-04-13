@@ -20,7 +20,7 @@ class Launch(Resource):
 class LaunchList(Resource):
     def get(self):
 
-        csv_file_path = 'Filtered_Launches_with_Emissions.csv'
+        csv_file_path = 'backend/Filtered_Launches_with_Emissions.csv'
 
         data = []
 
