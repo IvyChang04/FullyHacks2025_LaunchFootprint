@@ -7,16 +7,27 @@ const GlobeRings = () => {
   const [ringsData, setRingsData] = useState([]);
 
   useEffect(() => {
-    const N = 30;
-    const rings = [...Array(N).keys()].map(() => ({
-      lat: (Math.random() - 0.5) * 180,
-      lng: (Math.random() - 0.5) * 360,
-      maxR: Math.random() * 20 + 5,
-      propagationSpeed: Math.random() * 2 + 0.5,
-      repeatPeriod: Math.random() * 2000 + 1000
-    }));
+    // const N = 30;
+    fetch()
+        .then((res) => res.json())
+        .then((data) => {
+            setRingsData([...Array(N).keys()].map(() => ({
+                    lat: data.latitude,
+                    lng: data.longitude,
+                    maxR: 30,
+                    propagationSpeed: 5,
+                    repeatPeriod: Math.random() * 2000 + 1000
+                })))
+        })
+    // const rings = [...Array(N).keys()].map(() => ({
+    //   lat: (Math.random() - 0.5) * 180,
+    //   lng: (Math.random() - 0.5) * 360,
+    //   maxR: Math.random() * 20 + 5,
+    //   propagationSpeed: Math.random() * 2 + 0.5,
+    //   repeatPeriod: Math.random() * 2000 + 1000
+    // }));
 
-    setRingsData(rings);
+    // setRingsData(rings);
 
     globeEl.current.controls().autoRotate = true;
     globeEl.current.controls().autoRotateSpeed = 0.5;

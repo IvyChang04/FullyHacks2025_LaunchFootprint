@@ -1,4 +1,4 @@
-Launch Id,Launch Time,Launch Status,Rocket Name,Rocket Organisation,Location,Launch Year,Emissions (kg)
+LaunchId,LaunchTime,LaunchStatus,RocketName,RocketOrganisation,Location,LaunchYear,Emissions
 68,2019-03-02 07:49:00+00:00,Success,Falcon 9 Block 5,SpaceX,"LC-39A, Kennedy Space Center, Florida, USA",2019,1288350.0
 69,2019-01-11 15:31:00+00:00,Success,Falcon 9 Block 5,SpaceX,"SLC-4E, Vandenberg SFB, California, USA",2019,1288350.0
 73,2019-06-25 06:30:00+00:00,Success,Falcon Heavy,SpaceX,"LC-39A, Kennedy Space Center, Florida, USA",2019,4473000.0
@@ -23,9 +23,6 @@ Launch Id,Launch Time,Launch Status,Rocket Name,Rocket Organisation,Location,Lau
 109,2021-06-03 17:29:00+00:00,Success,Falcon 9 Block 5,SpaceX,"LC-39A, Kennedy Space Center, Florida, USA",2021,1288350.0
 108,2020-12-06 16:17:00+00:00,Success,Falcon 9 Block 5,SpaceX,"LC-39A, Kennedy Space Center, Florida, USA",2020,1288350.0
 119,2019-08-19 12:12:00+00:00,Success,Electron/Curie,Rocket Lab,"Rocket Lab LC-1A, Māhia Peninsula, New Zealand",2019,40950.0
-138,2019-01-19 19:10:00+00:00,Success,Delta IV Heavy,ULA,"SLC-6, Vandenberg SFB, California, USA",2019,0.0
-139,2020-12-11 01:09:00+00:00,Success,Delta IV Heavy,ULA,"SLC-37B, Cape Canaveral SFS, Florida, USA",2020,0.0
-140,2021-04-26 20:47:00+00:00,Success,Delta IV Heavy,ULA,"SLC-6, Vandenberg SFB, California, USA",2021,0.0
 170,2019-12-20 11:36:00+00:00,Success,Atlas V N22,ULA,"SLC-41, Cape Canaveral SFS, Florida, USA",2019,897750.0
 262,2019-10-11 01:59:00+00:00,Success,Pegasus XL,Northrop,"Stargazer, Cape Canaveral SFS, Florida, USA",2019,85500.0
 361,2021-06-15 13:35:00+00:00,Success,Minotaur I,Northrop,"LP-0B, Wallops Flight Facility, Virginia, USA",2021,61275.0
@@ -64,9 +61,6 @@ Launch Id,Launch Time,Launch Status,Rocket Name,Rocket Organisation,Location,Lau
 462,2021-11-09 00:55:00+00:00,Success,Epsilon PBS,JAXA,"Mu Pad, Uchinoura Space Center, Japan",2021,259350.0
 463,2019-09-24 16:05:00+00:00,Success,H-IIB,MHI,"LA-Y2, Tanegashima Space Center, Japan",2019,1575000.0
 542,2019-12-18 08:54:00+00:00,Success,Soyuz ST-A/Fregat-M,Arianespace,"ELS, Guiana Space Centre, French Guiana, France",2019,863100.0
-561,2019-03-16 00:26:00+00:00,Success,"Delta IV Medium+ (5,4)",ULA,"SLC-37B, Cape Canaveral SFS, Florida, USA",2019,0.0
-562,2019-08-22 13:06:00+00:00,Success,"Delta IV Medium+ (4,2)",ULA,"SLC-37B, Cape Canaveral SFS, Florida, USA",2019,0.0
-618,2019-07-22 09:13:00+00:00,Success,GSLV Mk III,ISRO,"Second Launch Pad, Satish Dhawan Space Centre, India",2019,0.0
 625,2019-02-22 01:45:00+00:00,Success,Falcon 9 Block 5,SpaceX,"SLC-40, Cape Canaveral SFS, Florida, USA",2019,1288350.0
 661,2019-09-22 21:10:00+00:00,Success,Long March 3B/YZ-1,CASC,"LC-2, Xichang Satellite Launch Center, China",2019,1476000.0
 662,2019-12-16 07:22:00+00:00,Success,Long March 3B/YZ-1,CASC,"LC-3, Xichang Satellite Launch Center, China",2019,1476000.0

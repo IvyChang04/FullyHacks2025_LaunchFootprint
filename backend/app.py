@@ -1,5 +1,8 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_restful import Api, Resource, reqparse, abort
+import csv
+from location_lon_lat import locations
+
 
 
 app = Flask(__name__)
@@ -13,8 +16,26 @@ class Launch(Resource):
 
 class LaunchList(Resource):
     def get(self):
-        # return launchList, 200
-        pass
+
+        csv_file_path = 'Filtered_Launches_with_Emissions.csv'
+
+        data = []
+
+        with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                row_data = {
+                    "LaunchId": int(row['LaunchId']),
+                    "RocketName": row['RocketName'],
+                    "Emissions": float(row['Emissions']),
+                    "Longitude": float(locations[row['Location']]['Longitude']),
+                    "Latitude": float(locations[row['Location']]['Latitude']),
+                    "LaunchTime": row['LaunchTime'],
+                    "Location": row['Location'],
+                }
+                data.append(row_data)
+
+        return jsonify(data), 200
 
 
 # Routes
