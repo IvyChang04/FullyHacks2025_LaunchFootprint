@@ -2,10 +2,12 @@ from flask import Flask, request, jsonify
 from flask_restful import Api, Resource, reqparse, abort
 import csv
 from location_lon_lat import locations
+from flask_cors import CORS
 
 
 
 app = Flask(__name__)
+CORS(app)
 api = Api(app)
 
 
@@ -24,7 +26,7 @@ class LaunchList(Resource):
         with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                row_data = {
+                data.append({
                     "LaunchId": int(row['LaunchId']),
                     "RocketName": row['RocketName'],
                     "Emissions": float(row['Emissions']),
@@ -32,10 +34,11 @@ class LaunchList(Resource):
                     "Latitude": float(locations[row['Location']]['Latitude']),
                     "LaunchTime": row['LaunchTime'],
                     "Location": row['Location'],
-                }
-                data.append(row_data)
+                })
 
-        return jsonify(data), 200
+            print(data)
+
+        return data, 200
 
 
 # Routes
