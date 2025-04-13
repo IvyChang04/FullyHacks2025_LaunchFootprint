@@ -1,4 +1,4 @@
-Launch Id,Launch Time,Launch Status,Rocket Name,Rocket Organisation,Location,Launch Year,Emissions (kg)
+LaunchId,LaunchTime,LaunchStatus,RocketName,RocketOrganisation,Location,LaunchYear,Emissions
 68,2019-03-02 07:49:00+00:00,Success,Falcon 9 Block 5,SpaceX,"LC-39A, Kennedy Space Center, Florida, USA",2019,1288350.0
 69,2019-01-11 15:31:00+00:00,Success,Falcon 9 Block 5,SpaceX,"SLC-4E, Vandenberg SFB, California, USA",2019,1288350.0
 73,2019-06-25 06:30:00+00:00,Success,Falcon Heavy,SpaceX,"LC-39A, Kennedy Space Center, Florida, USA",2019,4473000.0
