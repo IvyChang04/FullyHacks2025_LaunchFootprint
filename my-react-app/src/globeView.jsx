@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'https://esm.sh/react';
 import { createRoot } from 'react-dom/client';
 import Globe from 'https://esm.sh/react-globe.gl?external=react';
 
