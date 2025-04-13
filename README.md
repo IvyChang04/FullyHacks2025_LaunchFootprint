@@ -52,4 +52,4 @@ Users can:
 We’re excited about the potential to make space exploration more sustainable and transparent — one launch at a time.
 
 ## Try it out
-<fully-hacks2025-launch-footprint.vercel.app>
+[fully-hacks2025-launch-footprint.vercel.app](fully-hacks2025-launch-footprint.vercel.app)
