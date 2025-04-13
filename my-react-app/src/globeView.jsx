@@ -18,7 +18,7 @@ const GlobeView = () => {
 
     createRoot(document.getElementById('globeViz')).render(
       <Globe
-        globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-dark.jpg"
+        globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg"
         htmlElementsData={gData}
         htmlElement={(d) => {
           const el = document.createElement('div');
