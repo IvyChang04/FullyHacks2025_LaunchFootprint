@@ -9,7 +9,7 @@ const GlobeRings = () => {
 
   useEffect(() => {
     // const N = 30;
-    fetch('http://10.67.125.232:6969/launches')
+    fetch('https://fullyhacks2025-launchfootprint.onrender.com/launches')
         .then((res) => res.json())
         .then((data) => {
             // setLaunches(data);
