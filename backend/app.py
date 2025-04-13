@@ -10,6 +10,9 @@ app = Flask(__name__)
 CORS(app)
 api = Api(app)
 
+class Test(Resource):
+    def get(self):
+        return "Test", 200
 
 class Launch(Resource):
     def get(self):
@@ -19,7 +22,7 @@ class Launch(Resource):
 class LaunchList(Resource):
     def get(self):
 
-        csv_file_path = 'Filtered_Launches_with_Emissions.csv'
+        csv_file_path = 'backend/Filtered_Launches_with_Emissions.csv'
 
         data = []
 
@@ -42,6 +45,7 @@ class LaunchList(Resource):
 
 
 # Routes
+api.add_resource(Test, "/test")
 api.add_resource(LaunchList, "/launches")
 api.add_resource(Launch, "/launches/<int:launch_id>")
 
