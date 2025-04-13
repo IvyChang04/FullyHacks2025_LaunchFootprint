@@ -5,29 +5,25 @@ import Globe from 'react-globe.gl';
 const GlobeRings = () => {
   const globeEl = useRef();
   const [ringsData, setRingsData] = useState([]);
+  // const [launches, setLaunches] = useState([]);
 
   useEffect(() => {
     // const N = 30;
-    fetch()
+    fetch('http://10.67.125.232:6969/launches')
         .then((res) => res.json())
         .then((data) => {
-            setRingsData([...Array(N).keys()].map(() => ({
-                    lat: data.latitude,
-                    lng: data.longitude,
+            // setLaunches(data);
+            console.log(Object.keys(data))
+            const launchData = data.map((launch) => ({
+                    lat: launch.Latitude,
+                    lng: launch.Longitude,
                     maxR: 30,
                     propagationSpeed: 5,
                     repeatPeriod: Math.random() * 2000 + 1000
-                })))
-        })
-    // const rings = [...Array(N).keys()].map(() => ({
-    //   lat: (Math.random() - 0.5) * 180,
-    //   lng: (Math.random() - 0.5) * 360,
-    //   maxR: Math.random() * 20 + 5,
-    //   propagationSpeed: Math.random() * 2 + 0.5,
-    //   repeatPeriod: Math.random() * 2000 + 1000
-    // }));
+            }));
 
-    // setRingsData(rings);
+            setRingsData(launchData);
+        })
 
     globeEl.current.controls().autoRotate = true;
     globeEl.current.controls().autoRotateSpeed = 0.5;
