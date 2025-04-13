@@ -18,9 +18,11 @@ const GlobeRings = () => {
             const launchData = data.map((launch) => ({
                     lat: launch.Latitude,
                     lng: launch.Longitude,
-                    maxR: 30,
+                    maxR: launch.Emissions > 1000000 ? 10 : 2,
                     propagationSpeed: 5,
-                    repeatPeriod: Math.random() * 2000 + 1000
+                    repeatPeriod: Math.random() * 2000 + 1000,
+                    color: launch.Emissions > 1000000 ?  '#ff0000' : '#adff2f'
+                  
             }));
 
             setRingsData(launchData);
@@ -37,7 +39,7 @@ const GlobeRings = () => {
         globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg"
         backgroundColor="#000000"
         ringsData={ringsData}
-        ringColor={() => ['#ff5733', '#33ff99', '#3385ff'][Math.floor(Math.random() * 3)]}
+        ringColor={(d) => d.color}
         ringMaxRadius="maxR"
         ringPropagationSpeed="propagationSpeed"
         ringRepeatPeriod="repeatPeriod"
