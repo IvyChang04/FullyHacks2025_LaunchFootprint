@@ -64,9 +64,14 @@ const GlobeRings = () => {
 
         const tooltip = document.createElement("div");
         tooltip.className = "html-marker-tooltip";
-        tooltip.innerHTML = `<b>${launch.RocketName || "Launch"}</b><br>${
-            launch.Emissions
-        } CO₂e`;
+        tooltip.innerHTML = `
+            <div>
+                <h3>${launch.RocketName}</h3>
+                <p>Location: ${launch.Location}</p>
+                <p>Launch Date: ${launch.LaunchTime.split(" ")[0]}</p>
+                <p>Emissions: ${launch.Emissions} Kgs of CO2</p>
+            </div>
+        `;
 
         // Set initial tooltip visibility
         tooltip.style.opacity = "0";
